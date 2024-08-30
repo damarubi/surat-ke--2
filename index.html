@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>buatbayik</title>
+    <link rel="stylesheet" href="Style3.css" />
+  </head>
+  <body>
+    <div class="envelope">
+      <div class="back"></div>
+      <div class="letter">
+        <div class="heart"></div>
+        <div class="text">
+          <p>
+            Kamu pasti sebel <br />
+            gara gara surat pertama <br />
+            kalau iya berarti kamu <br ?>
+            masuk perangkap <br />
+            MAAFFF SAYANGGG
+          </p>
+          <a href="new.html" id="clickHereLink">Cutek ini coba</a>
+        </div>
+      </div>
+      <div class="front"></div>
+      <div class="top"></div>
+      <div class="shadow"></div>
+      <div class="text1">
+        <h2>SURAT KE-2 <br /> dari pacar kamu</h2>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById('clickHereLink').addEventListener('click', function(event) {
+        event.preventDefault();
+        console.log('Link diklik!');
+        window.location.href = 'new.html';
+      });
+    </script>
+  </body>
+</html>
